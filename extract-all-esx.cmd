@@ -13,7 +13,7 @@ REM 3. The log bundles to extract from (esx-*.tgz and/or vc-*.tgz) need to be pl
 SET BASEPATH=C:\Temp\Log_extraction\bundles
 SET ZIP=%BASEPATH%\..\7zip\7z.exe
 SET IMPORTER=C:\Program Files (x86)\VMware\Log Insight Importer\loginsight-importer.exe
-SET LISERVER=192.168.230.6
+SET LISERVER=ENTER-IP-ADDRESS-OR-FQDN-HERE
 REM SET LIPWSTRING=--password ENTERPASSWORDHERE
 
 REM If the Log Insight admin password string above is blank (default), you will get prompted on import, 
